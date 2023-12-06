@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    margin-left: 270px;
+    margin-top: 50px;
+
+}
+
+/* header */
+
+header {
+    display: flex;  
+    padding: 14px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-item-a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--Text, #363940);
+    font-weight: 500;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+    color: var(--Text, #363940);
+    font-weight: 500;
+}
+.sign-in a{
+    text-decoration: none;
+}
+.sign-up a{
+    text-decoration: none;
+}
+
+.navigation{
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* / header */
+
+
+
+/* main */
+main{
+    display: flex;
+    height: 480px;
+    justify-content: space-between;
+}
+
+.main-content{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-content h1{
+    color: var(--Text, #363940);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px; 
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-buttons button{
+    width: 157px;
+    height: 46px;
+    flex-shrink: 0;
+}
+
+.download{
+    border-radius: 4px;
+    background: var(--Primary, #6E38F7);
+    color: #FFF;
+    text-align: center;
+}
+
+.try-btn{
+    border-radius: 4px;
+    border: 1px solid var(--Primary, #6E38F7);
+}
+
+.main-img{
+    max-width: 708px;
+    overflow: hidden;
+}
+
+.main-img .mac-img{
+    position: relative;
+    right: 0;
+    display: none;
+}
+
+
+.iphone{
+    z-index: 1000;
+}
+
+
+/* /main */
